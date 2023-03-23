@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 484521117810943840, guid: f48f41744257449ccb26fabc7a35f14a, type: 3}
+  enemyCount: 0
 --- !u!4 &1055474406
 Transform:
   m_ObjectHideFlags: 0
@@ -763,8 +764,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b59c6e7a10046ee91bf47714713743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  hasPowerup: 0
+  speed: 10
+  hasPowerup: 1
+  powerupIndicator: {fileID: 1662843165}
+--- !u!1 &1662843165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887969965315444, guid: 1656aec7f2b3ffe45a91801f58b00253, type: 3}
+  m_PrefabInstance: {fileID: 718928693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2101232569
 PrefabInstance:
   m_ObjectHideFlags: 0
